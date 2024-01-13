@@ -3,7 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Local Storage</title>
+    <link href="style.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <div id="container">
+      <div id="aut">
+        <div class="cont">
+          <p>Email</p>
+          <p class="inputs" id="emails" contenteditable="true"></p>
+          <p id="avv"></p>
+        </div>
+        <div class="cont">
+          <p>Password</p>
+          <input
+            id="pssw"
+            class="inputs"
+            type="password"
+            placeholder="Inserisci la password..."
+          />
+        </div>
+        <button type="button" class="btns" id="login" disabled="true">
+          ACCEDI
+        </button>
+      </div>
+      <div id="benv">
+        <button type="button" id="logout" class="btns">ESCI</button>
+        <h1>BENVENUTO!!!</h1>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
